@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -8,6 +8,18 @@ body {
 	margin-bottom:0.5em;
 }
 
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fixed-height {
+	background: url('../images/cat.jpg') no-repeat center center scroll;
+    height:500px;
+}
 /*
 .centered{
 	  text-align: center;
