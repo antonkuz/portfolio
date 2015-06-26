@@ -3,13 +3,14 @@ body {
   padding-bottom: 30px;
 }
 
-/*.aboutme {
-  padding:0px 160px;
-}*/
+.header{
+	margin-top:1.5em;
+}
 
+/*
 .centered{
 	  text-align: center;
-}
+}*/
 
 .avatar{
 	float:left;
