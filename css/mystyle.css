@@ -1,0 +1,17 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.aboutme {
+  padding:0px 160px;
+}
+
+.centered{
+	  text-align: center;
+}
+
+.avatar{
+	float:left;
+	margin:0 2em;
+}
