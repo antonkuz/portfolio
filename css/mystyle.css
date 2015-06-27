@@ -20,12 +20,18 @@ body {
 	background: url('../images/cat.jpg') no-repeat center center scroll;
     height:500px;
 }
-/*
-.centered{
-	  text-align: center;
-}*/
+
+.exp-section{
+	margin-bottom:0.5em;
+}
 
 .avatar{
 	float:left;
 	margin:0 2em;
 }
+
+
+/*
+.centered{
+	  text-align: center;
+}*/
