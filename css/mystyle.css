@@ -44,8 +44,12 @@ h1, nav {
     font-family: 'Quicksand';
 }
 
-#contact{
+#contact,i{
   color:white;
+}
+
+i:hover{
+  color:#5c4563;
 }
 
 .avatar{
