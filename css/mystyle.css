@@ -16,7 +16,7 @@ body {
 }
 
 .image-bg-fixed-height {
-	background: url('../images/cat.jpg') no-repeat center center scroll;
+	background: url('../images/abstract.jpg') no-repeat center center scroll;
   height:500px;
 }
 
@@ -65,4 +65,8 @@ i:hover{
 
 .greybg,.lgreybg,.darkgreybg{
   padding-bottom:40px;
+}
+
+.centerglyph, .centerimg, .centertext{
+  display:flex;justify-content:center;align-items:center;
 }
