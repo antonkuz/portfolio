@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="css/mystyle.css">
 <link href="css/captionhover.css" rel="stylesheet">
 <link rel="stylesheet" href="css/font-awesome.css">
-
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -52,14 +52,18 @@
   <header class="image-bg-fixed-height"></header>
   <div class="greybg">
     <div class="container">
+      <h1 class="text-center header" id="about">About me</h1>
       <div class="row">
-        <h1 class="text-center header" id="about">About me</h1>
-        <img src="images/profile.png" class="img-circle avatar" width="200" height="200">
-        <p>
-          I am a sophomore studying Electrical & Computer Engineering at Carnegie Mellon University.
-          <br><br> My areas of interest include Software Development and Embedded Systems. 
-          <br><br>I'm always seeking to combine my passions in technology and creativity, and I have a range of web development skills. This summer I work as an Intern at Personal Robotics Lab.
-        </p>
+        <div class="col-xs-4">
+          <img src="images/profile.png" class="img-circle avatar img-responsive" width="200" height="200">
+        </div>
+        <div class="col-xs-8">
+          <p>
+            I am a sophomore studying Electrical & Computer Engineering at Carnegie Mellon University.
+            <br><br> My areas of interest include Software Development and Embedded Systems. 
+            <br><br>I'm always seeking to combine my passions in technology and creativity, and I have a range of web development skills. This summer I work as an Intern at Personal Robotics Lab.
+          </p>
+        </div>
       </div>
     </div><!-- ./container -->
   </div>
@@ -67,21 +71,30 @@
     <div class="container">
       <h1 id="exp" class="text-center header">Experiences</h1>
       <div class="row">
-        <div class="col-sm-4 exp-section">
-          <h4>Carnegie Mellon University</h4>
+        <div class="col-sm-5 exp-section">
+          <h3>Carnegie Mellon University</h4>
           <p>Aug 2013 - May 2017</p>
         </div>
-        <div class="col-sm-8 exp-section">
+        <div class="col-sm-7 exp-section">
           <h4>Bachelor of Science in Electrical & Computer Engineering</h4>
         </div>
       </div>
       <div class="row exp-section">
-        <div class="col-sm-4">
-          <h4>Some cool internship</h4>
+        <div class="col-sm-5">
+          <h3>Personal Robotics Lab</h4>
+          <p>Summer 2015</p>
+        </div>
+        <div class="col-sm-7 exp-section">
+          <h4>Web Development/Robotics Intern</h4>
+        </div>
+      </div> <!-- /.row -->
+      <div class="row exp-section">
+        <div class="col-sm-5">
+          <h3>DataArt</h4>
           <p>Summer 2014</p>
         </div>
-        <div class="col-sm-8 exp-section">
-          <h4>I did some programming</h4>
+        <div class="col-sm-7 exp-section">
+          <h4>Software Engineering Intern</h4>
         </div>
       </div> <!-- /.row -->
     </div>
@@ -107,8 +120,8 @@
         </div>
         <div class="col-sm-4">
           <ul class="list-unstyled">
-            <li>Python Servers (Flask, bottlepy)</li>
-            <li>Nodejs</li>
+            <li>Python Frameworks (Bottle, Flask)</li>
+            <li>Node.js</li>
             <li>Git</li>
             <li>Unix</li>
           </ul>
@@ -141,16 +154,18 @@
   </div>
   <div class="darkgreybg">
     <div class="container">
+      <h1 class="text-center header" id="contact">Contact</h1>
       <div class="row">
-        <h1 class="text-center header" id="contact">Contact</h1>
-        <div class="col-sm-6">
-          <ul class="list-unstyled">
-            <li><a href="https://github.com/antonkuz" target="_blank"><i style="vertical-align:middle" class="fa fa-github fa-3x"></i>https://github.com/antonkuz</a></li>
-            <li><a href="https://www.linkedin.com/in/antonkuznetsov1" target="_blank"><i style="vertical-align:middle" class="fa fa-linkedin-square fa-3x"></i>https://www.linkedin.com/in/antonkuznetsov1</a></li>
-            <li><a href="mailto:antonk@cmu.edu"><i style="vertical-align:middle" class="fa fa-envelope fa-3x"></i>antonk@cmu.edu</a></li>
-          </ul>
+        <div class="col-xs-4">
+          <a href="https://github.com/antonkuz" target="_blank"><i style="vertical-align:middle" class="fa fa-github fa-4x"></i></a>
         </div>
-      </div> <!-- /.row -->
+        <div class="col-xs-4">
+          <a href="https://www.linkedin.com/in/antonkuznetsov1" target="_blank"><i style="vertical-align:middle" class="fa fa-linkedin-square fa-4x"></i></a>
+        </div>
+        <div class="col-xs-4">
+          <a href="mailto:antonk@cmu.edu"><i style="vertical-align:middle" class="fa fa-envelope fa-4x"></i></a>
+        </div>
+      </div><!-- /.row -->
     </div><!-- /.container -->
   </div>
 </body>
