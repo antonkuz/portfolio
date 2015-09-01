@@ -40,6 +40,9 @@ h1,h2,h3,h4{
   .pydrums{
     content:url("../images/pydrums-resize.jpg");
   }
+  .tableturn{
+    content:url("../images/tableturn.jpg");
+  }
   .caption-style-1 .blur{
     height: 222px;
     width: 500px;
@@ -54,6 +57,9 @@ h1,h2,h3,h4{
 @media (max-width: 500px) {
   .pydrums{
     content:url("../images/pydrums-small.jpg");
+  }
+  .tableturn{
+    content:url("../images/tableturn-small.jpg");
   }
   .caption-style-1 .blur{
     height: 133px;

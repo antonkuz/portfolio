@@ -68,5 +68,24 @@ i:hover{
 }
 
 .centerglyph, .centerimg, .centertext{
-  display:flex;justify-content:center;align-items:center;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+  -webkit-justify-content: center; /*safari*/
+  justify-content:center; /*chrome*/
+  align-items:center;
+}
+
+@media (min-width: 500px) {
+  .projwithmargin{
+    margin-bottom:100px;
+  }
+}
+@media (max-width: 500px) {
+.projwithmargin{
+    margin-bottom:40px;
+  }
 }
